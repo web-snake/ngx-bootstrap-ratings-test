@@ -1,5 +1,6 @@
 # RatingsTest
 
+This test angular project reproduces an issue described at : https://github.com/valor-software/ngx-bootstrap/issues/3121
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 It incorporates [ngx-bootstrap v1.9.3](https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md) using Bootstrap 4
 It tests the [Rating component](https://valor-software.com/ngx-bootstrap/#/rating)

@@ -1,6 +1,10 @@
 # RatingsTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+It incorporates [ngx-bootstrap v1.9.3](https://github.com/valor-software/ngx-bootstrap/blob/development/docs/getting-started/bootstrap4.md) using Bootstrap 4
+It tests the [Rating component](https://valor-software.com/ngx-bootstrap/#/rating)
+The same source code works as expected at this [StackBiltz](https://stackblitz.com/edit/ngx-bootstrap-ratings-xyf9ab)
+This project does not work under this npm envirnoment installed by [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
 
 ## Development server
 

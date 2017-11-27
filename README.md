@@ -5,6 +5,23 @@ It incorporates [ngx-bootstrap v1.9.3](https://github.com/valor-software/ngx-boo
 It tests the [Rating component](https://valor-software.com/ngx-bootstrap/#/rating)
 The same source code works as expected at this [StackBiltz](https://stackblitz.com/edit/ngx-bootstrap-ratings-xyf9ab)
 This project does not work under this npm envirnoment installed by [Angular CLI](https://github.com/angular/angular-cli) version 1.4.9.
+It gives the following template error for the Rating component:
+Uncaught Error: Template parse errors:
+Can't bind to 'ngModel' since it isn't a known property of 'rating'. ("<div class="ratings">
+  <rating [max]="max" [ERROR ->][(ngModel)]="rate" ></rating>
+  <b>(<i>Rate:</i> {{rate}})</b>
+</div>
+"): ng:///AppModule/AppComponent.html@1:22
+    at syntaxError (compiler.es5.js:1694)
+    at TemplateParser.webpackJsonp.../../../compiler/@angular/compiler.es5.js.TemplateParser.parse (compiler.es5.js:12791)
+    at JitCompiler.webpackJsonp.../../../compiler/@angular/compiler.es5.js.JitCompiler._compileTemplate (compiler.es5.js:26994)
+    at compiler.es5.js:26913
+    at Set.forEach (<anonymous>)
+    at JitCompiler.webpackJsonp.../../../compiler/@angular/compiler.es5.js.JitCompiler._compileComponents (compiler.es5.js:26913)
+    at compiler.es5.js:26800
+    at Object.then (compiler.es5.js:1683)
+    at JitCompiler.webpackJsonp.../../../compiler/@angular/compiler.es5.js.JitCompiler._compileModuleAndComponents (compiler.es5.js:26799)
+    at JitCompiler.webpackJsonp.../../../compiler/@angular/compiler.es5.js.JitCompiler.compileModuleAsync (compiler.es5.js:26728)
 
 ## Development server
 

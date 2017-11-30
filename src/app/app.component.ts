@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RatingModule } from 'ngx-bootstrap/rating';
 
 @Component({
   selector: 'app-root',
